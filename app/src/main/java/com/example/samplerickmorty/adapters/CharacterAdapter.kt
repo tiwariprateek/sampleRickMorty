@@ -31,7 +31,7 @@ class CharacterAdapter(private val onNoteClicked: (ResultsItem) -> Unit) :
 
         fun bind(character: ResultsItem) {
             binding.characterName.text = character.name
-            Glide.with(itemView.context).load(character.url).into(binding.characterImage);
+            Glide.with(itemView.context).load(character.image).into(binding.characterImage)
             binding.root.setOnClickListener {
                 onNoteClicked(character)
             }
