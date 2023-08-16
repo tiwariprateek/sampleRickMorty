@@ -3,7 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".presentation.character_list.HomeFragment">
+=======
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.character.HomeFragment">
+>>>>>>> 475730e98537abdb31f66e1508b5f7de6bb64aeb
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/characterRV"

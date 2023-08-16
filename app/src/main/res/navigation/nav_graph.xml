@@ -7,7 +7,11 @@
 
     <fragment
         android:id="@+id/homeFragment"
+<<<<<<< HEAD
         android:name="com.example.samplerickmorty.presentation.character_list.HomeFragment"
+=======
+        android:name="com.example.samplerickmorty.ui.character.HomeFragment"
+>>>>>>> 475730e98537abdb31f66e1508b5f7de6bb64aeb
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -16,7 +20,11 @@
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
+<<<<<<< HEAD
         android:name="com.example.samplerickmorty.presentation.character_detail.DetailFragment"
+=======
+        android:name="com.example.samplerickmorty.ui.character.DetailFragment"
+>>>>>>> 475730e98537abdb31f66e1508b5f7de6bb64aeb
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" />
 </navigation>

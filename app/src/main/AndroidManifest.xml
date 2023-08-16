@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.INTERNET"/>
+=======
+    <uses-permission android:name="android.permission.INTERNET" />
+>>>>>>> 475730e98537abdb31f66e1508b5f7de6bb64aeb
 
     <application
         android:name=".MainApplication"
@@ -15,7 +19,11 @@
         android:theme="@style/Theme.SampleRickMorty"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
             android:name=".presentation.MainActivity"
+=======
+            android:name=".MainActivity"
+>>>>>>> 475730e98537abdb31f66e1508b5f7de6bb64aeb
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
